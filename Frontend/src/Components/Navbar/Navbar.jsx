@@ -7,7 +7,9 @@ export default function Nvabar() {
     <div className="flex justify-between items-center h-[18vh] px-8">
       <div className="logoSection flex flex-col items-center  ">
         <img src={logo} alt="Logo" className="w-[75%] h-18" />
-        <h2 className="font-semibold text-2xl ">Bharat Mechanical Solutions</h2>
+        <h2 className="font-semibold text-2xl text-gray-500">
+          Bharat Mechanical Solutions
+        </h2>
       </div>
       <div className="flex gap-4 font-semibold text-lg">
         <Link to="/">Home</Link>
