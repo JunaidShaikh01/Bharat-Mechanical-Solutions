@@ -1,8 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons"; // Import LinkedIn icon from brands package
+import { faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../Pitchers/logoBg.png";
 export default function Footer() {
   const email = "bharat.mechsolutions@gmail.com";
 
@@ -49,7 +50,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-white flex flex-col items-center justify-center w-full">
-        <img src="" alt="Logo" className="mb-4" />
+        <img src={logo} alt="Logo" className="mb-4 h-15 w-[15%]" />
         <div className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faCopyright} className=" bg-black" />
           <p>Bharat Mechanical Solution | All rights reserved.</p>
