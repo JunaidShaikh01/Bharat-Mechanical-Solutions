@@ -16,54 +16,63 @@ import Card from "./Card";
 export default function Products() {
   const cardsData = [
     {
+      id: 1,
       image: product1,
       title: "Card title 1",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 2,
       image: product2,
       title: "Card title 2",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 3,
       image: product3,
       title: "Card title 3",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 4,
       image: product4,
       title: "Card title 4",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 5,
       image: product5,
       title: "Card title 5",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 6,
       image: product6,
       title: "Card title 6",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 7,
       image: product7,
       title: "Card title 7",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 8,
       image: product8,
       title: "Card title 8",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
+      id: 9,
       image: product9,
       title: "Card title 9",
       details: "Some details about the first card.",
@@ -73,7 +82,7 @@ export default function Products() {
   return (
     <div>
       <Nvabar />
-      <div className="Products flex flex-col gap-4">
+      <div className="Products flex flex-col gap-4 mb-8">
         <div className="productSection h-[82vh] relative ">
           <img
             src={banner}
@@ -89,6 +98,7 @@ export default function Products() {
         <div className={`${styles.cardsContainer} px-40 mt-8 grid gap-4`}>
           {cardsData.map((card, index) => (
             <Card
+              id={card.id}
               key={index}
               image={card.image}
               title={card.title}
