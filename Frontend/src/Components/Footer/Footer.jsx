@@ -6,7 +6,6 @@ import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../Pitchers/logoBg.png";
 export default function Footer() {
   const email = "bharat.mechsolutions@gmail.com";
-
   const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
   return (
     <div className="bg-black  ">
