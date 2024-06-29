@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import styles from "./products.module.css";
 import { useRecoilState } from "recoil";
-import { selectedIdState } from "../Recoil/recoilState";
+import { selectedIdState, selectedNameState } from "../Recoil/recoilState";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Card = ({ image, title, details, link, id }) => {
@@ -11,11 +11,14 @@ const Card = ({ image, title, details, link, id }) => {
   const navigate = useNavigate();
 
   const [selectedId, setSelectedId] = useRecoilState(selectedIdState);
+  const [selecedName, setSelectedName] = useRecoilState(selectedNameState);
 
   const handleClick = () => {
     setSelectedId(id);
+    setSelectedName(title);
     navigate("/product-view");
   };
+  console.log("Selected Name", selecedName);
   console.log("SelectedId:", selectedId);
   return (
     <div

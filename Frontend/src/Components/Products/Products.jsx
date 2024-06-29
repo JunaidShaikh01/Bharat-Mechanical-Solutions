@@ -2,15 +2,15 @@ import React from "react";
 import Nvabar from "../Navbar/Navbar";
 import banner from "../../Pitchers/productBanner.jpg";
 import Footer from "../Footer/Footer";
-import product1 from "../../Pitchers/product1.jpg";
-import product2 from "../../Pitchers/product2.jpg";
-import product3 from "../../Pitchers/product3.jpg";
-import product4 from "../../Pitchers/product4.jpg";
-import product5 from "../../Pitchers/product5.jpg";
-import product6 from "../../Pitchers/product6.jpg";
-import product7 from "../../Pitchers/product7.jpg";
-import product8 from "../../Pitchers/product8.jpg";
-import product9 from "../../Pitchers/product9.jpg";
+import product1 from "../../Pitchers/milling-cat.jpg";
+import product2 from "../../Pitchers/turning-cat.jpg";
+import product3 from "../../Pitchers/drilling-cat.jpg";
+import product4 from "../../Pitchers/grooving-cat.jpg";
+import product5 from "../../Pitchers/threading-cat.jpg";
+import product6 from "../../Pitchers/small-tools-cat.jpg";
+import product7 from "../../Pitchers/api-ring-groover-thumb.jpg";
+import product8 from "../../Pitchers/custom-tools-cat.jpg";
+import product9 from "../../Pitchers/solid-carbide-micro-tools-cat.jpg";
 import styles from "./products.module.css";
 import Card from "./Card";
 export default function Products() {
@@ -18,63 +18,63 @@ export default function Products() {
     {
       id: 1,
       image: product1,
-      title: "Card title 1",
+      title: "Milling",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 2,
       image: product2,
-      title: "Card title 2",
+      title: "Turning",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 3,
       image: product3,
-      title: "Card title 3",
+      title: "Drilling",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 4,
       image: product4,
-      title: "Card title 4",
+      title: "Grooving / Cut-Off",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 5,
       image: product5,
-      title: "Card title 5",
+      title: "Threading",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 6,
       image: product6,
-      title: "Card title 6",
+      title: "Small Tools",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 7,
       image: product7,
-      title: "Card title 7",
+      title: "API Ring Groover",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 8,
       image: product8,
-      title: "Card title 8",
+      title: "Custom Tools",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 9,
       image: product9,
-      title: "Card title 9",
+      title: "Solid Carbide Round Tools",
       details: "Some details about the first card.",
       link: "Click here",
     },

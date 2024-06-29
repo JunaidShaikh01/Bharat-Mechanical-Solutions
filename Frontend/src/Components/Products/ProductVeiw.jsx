@@ -2,16 +2,17 @@ import React from "react";
 import { useRecoilState } from "recoil";
 import { selectedIdState } from "../Recoil/recoilState";
 import Nvabar from "../Navbar/Navbar";
-import product1 from "../../Pitchers/product1.jpg";
-import product2 from "../../Pitchers/product2.jpg";
-import product3 from "../../Pitchers/product3.jpg";
-import product4 from "../../Pitchers/product4.jpg";
-import product5 from "../../Pitchers/product5.jpg";
-import product6 from "../../Pitchers/product6.jpg";
-import product7 from "../../Pitchers/product7.jpg";
-import product8 from "../../Pitchers/product8.jpg";
-import product9 from "../../Pitchers/product9.jpg";
+import product1 from "../../Pitchers/Milling/milling-banner.jpg";
+import product2 from "../../Pitchers/turning-cat.jpg";
+import product3 from "../../Pitchers/drilling-cat.jpg";
+import product4 from "../../Pitchers/grooving-cat.jpg";
+import product5 from "../../Pitchers/threading-cat.jpg";
+import product6 from "../../Pitchers/small-tools-cat.jpg";
+import product7 from "../../Pitchers/api-ring-groover-thumb.jpg";
+import product8 from "../../Pitchers/custom-tools-cat.jpg";
+import product9 from "../../Pitchers/solid-carbide-micro-tools-cat.jpg";
 import { Link } from "react-router-dom";
+import ProductCard from "./ProductCard";
 export default function ProductVeiw() {
   const [selectedId] = useRecoilState(selectedIdState);
 
@@ -19,63 +20,72 @@ export default function ProductVeiw() {
     {
       id: 1,
       image: product1,
-      title: "Card title 1",
+      title1: "Indexable",
+      title2: "Milling",
       details: "Some details about the first card.",
       link: "Click here",
     },
     {
       id: 2,
       image: product2,
-      title: "Card title 2",
+      title1: "Indexable",
+      title2: "Turning",
       details: "Some details about the Second card.",
       link: "Click here",
     },
     {
       id: 3,
       image: product3,
-      title: "Card title 3",
+      title1: "Indexable",
+      title2: "Drilling",
       details: "Some details about the Third card.",
       link: "Click here",
     },
     {
       id: 4,
       image: product4,
-      title: "Card title 4",
+      title1: "Indexable",
+      title2: "Grooving",
       details: "Some details about the Fourth card.",
       link: "Click here",
     },
     {
       id: 5,
       image: product5,
-      title: "Card title 5",
+      title1: "Indexable",
+      title2: "Threading",
       details: "Some details about the Fifth card.",
       link: "Click here",
     },
     {
       id: 6,
       image: product6,
-      title: "Card title 6",
+      title1: "Indexable",
+      title2: "Small Tools ",
       details: "Some details about the Sixth card.",
       link: "Click here",
     },
     {
       id: 7,
       image: product7,
-      title: "Card title 7",
+      title1: "Indexable",
+      title2: "API Ring Groover ",
       details: "Some details about the Sevent card.",
       link: "Click here",
     },
     {
       id: 8,
       image: product8,
-      title: "Card title 8",
+      title1: "Indexable",
+      title2: "Custom Tools",
       details: "Some details about the Eight card.",
       link: "Click here",
     },
     {
       id: 9,
       image: product9,
-      title: "Card title 9",
+      title1: "Indexable",
+      title2: "Solid Carbide Round Tool",
       details: "Some details about the nine card.",
       link: "Click here",
     },
@@ -86,22 +96,22 @@ export default function ProductVeiw() {
   return (
     <div>
       <Nvabar />
-      <div className="productMain">
-        <div className="border-t ">
+      <div className="productMain  ">
+        <div className="border-t  flex justify-center border-gray-200 border-b-2 px-16">
           {productData.map((product) =>
             product.id === selectedId ? (
               <div
                 key={product.id}
-                className="flex h-[81vh] w-full items-center  justify-evenly"
+                className="flex flex-col  h-[81vh] w-full items-center  justify-evenly"
               >
                 <img
                   src={product.image}
-                  alt={product.title}
-                  className="h-[60vh] shadow-xl rounded-lg object-cover"
+                  alt={product.title2}
+                  className="h-[60%] w-[70%] shadow-xl rounded-lg object-cover"
                 />
-                <div className="flex flex-col gap-4">
-                  <h2>{product.title}</h2>
-                  <p>{product.details}</p>
+                <div className="flex  gap-4 mt-0 items-center">
+                  <h2 className="font-bold text-3xl">{product.title1}</h2>
+                  <h2 className="text-2xl">{product.title2}</h2>
 
                   <a
                     href={gmailLink}
@@ -116,6 +126,7 @@ export default function ProductVeiw() {
             ) : null
           )}
         </div>
+        <ProductCard />
       </div>
     </div>
   );

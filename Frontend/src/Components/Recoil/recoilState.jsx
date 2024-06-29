@@ -5,4 +5,7 @@ export const selectedIdState = atom({
   default: { selected: null },
 });
 
-
+export const selectedNameState = atom({
+  key: "selectednameState ",
+  default: null,
+});
