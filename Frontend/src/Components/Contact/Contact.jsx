@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="contactUsLogo flex justify-between mt-8 mb-8 px-10 ">
+          <div className="contactUsLogo flex   justify-between mt-8 mb-8 px-10 ">
             <div className="flex items-center flex-col gap-2">
               <div className="bg-black h-20 w-20 text-white rounded-full flex items-center justify-center shadow-lg">
                 <FontAwesomeIcon icon={faLocationDot} className="text-3xl" />

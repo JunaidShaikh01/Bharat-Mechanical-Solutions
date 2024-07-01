@@ -47,6 +47,9 @@ import smallToolsImg13 from "../../Pitchers/SmallTools/cat-pr1535.png";
 import smallToolsImg14 from "../../Pitchers/SmallTools/cat-pr1725.png";
 import smallToolsImg15 from "../../Pitchers/SmallTools/cat-sclc-jct.png";
 import smallToolsImg16 from "../../Pitchers/SmallTools/cat-sharp-edge-inserts.png";
+import smallToolsImg17 from "../../Pitchers/SmallTools/cat-zbmt.png";
+import smallToolsImg18 from "../../Pitchers/SmallTools/cat-tkfb-gq.png";
+import smallToolsImg19 from "../../Pitchers/SmallTools/cat-sub-spindle.png";
 
 //Drilling Images
 import drillingImg1 from "../../Pitchers/Drilling/cat-dra.png";
@@ -181,73 +184,73 @@ const Drilling = [
   {
     id: "1",
     image: drillingImg1,
-    title: "Drillings ",
+    title: "DRA Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "2",
     image: drillingImg2,
-    title: "Drillings ",
+    title: "DRV Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "3",
     image: drillingImg3,
-    title: "Drillings ",
+    title: "COREMASTER Coregrill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "4",
     image: drillingImg4,
-    title: "Drillings ",
+    title: "Counterbores",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "5",
     image: drillingImg5,
-    title: "Drillings ",
+    title: "Countersinks",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "6",
     image: drillingImg6,
-    title: "Drillings ",
+    title: "DRC Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "7",
     image: drillingImg7,
-    title: "Drillings ",
+    title: "DRS Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "8",
     image: drillingImg8,
-    title: "Drillings ",
+    title: "DRX Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "9",
     image: drillingImg9,
-    title: "Drillings ",
+    title: "DRZ Magic Drill",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "10",
     image: drillingImg10,
-    title: "Drillings ",
+    title: "HOLESHOT",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "11",
     image: drillingImg11,
-    title: "Drillings ",
+    title: "Solid Round Drills",
     details: "Drillings are a process used to create a shape from a",
   },
   {
     id: "12",
     image: drillingImg12,
-    title: "Drillings ",
+    title: "STNGER Drill",
     details: "Drillings are a process used to create a shape from a",
   },
 ];
@@ -255,13 +258,13 @@ const Turning = [
   {
     id: "1",
     image: turingImg1,
-    title: "Turning ",
+    title: "Insert Grades",
     details: "Turning are a process used to create a shape from a",
   },
   {
     id: "2",
     image: turningImg2,
-    title: "Turning ",
+    title: "Tool Holders",
     details: "Turning are a process used to create a shape from a",
   },
 ];
@@ -269,25 +272,25 @@ const Grooving = [
   {
     id: "1",
     image: groovingImg1,
-    title: " Grooving ",
+    title: "Cut-Off",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "1",
     image: groovingImg2,
-    title: "Grooving ",
+    title: "External Grooving",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "1",
     image: groovingImg3,
-    title: " Grooving ",
+    title: "Face Grooving",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "4",
     image: groovingImg4,
-    title: "Grooving ",
+    title: "Internal Grooving",
     details: "Grooving are a process used to create a shape from a",
   },
 ];
@@ -295,25 +298,25 @@ const Threading = [
   {
     id: "1",
     image: threadingImg1,
-    title: "Threading",
+    title: "EZ-Bar",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "2",
     image: threadingImg2,
-    title: "Threading",
+    title: "KTKF",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "3",
     image: threadingImg3,
-    title: "Threading",
+    title: "KTN/TF-Series",
     details: "Grooving are a process used to create a shape from a",
   },
   {
     id: "4",
     image: threadingimg4,
-    title: "Threading",
+    title: "KTN/TF-Series",
     details: "Grooving are a process used to create a shape from a",
   },
 ];
@@ -321,97 +324,115 @@ const SmallTools = [
   {
     id: "1",
     image: smallToolsImg1,
-    title: "Small Tools",
+    title: "EZ Bar Plus",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "2",
     image: smallToolsImg2,
-    title: "Small Tools",
+    title: "EZ Bar",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "3",
     image: smallToolsImg3,
-    title: "Small Tools",
+    title: "KGBF-JCT Coolent Trough",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "4",
     image: smallToolsImg4,
-    title: "Small Tools",
+    title: "GBF",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "5",
     image: smallToolsImg5,
-    title: "Small Tools",
+    title: "Goose-Neck Holder",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "6",
     image: smallToolsImg6,
-    title: "Small Tools",
+    title: "KGD-JCT Coolent Trough",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "7",
     image: smallToolsImg7,
-    title: "Small Tools",
+    title: "KGD Small Parts",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "8",
     image: smallToolsImg8,
-    title: "Small Tools",
+    title: "KTKF-JCT Coolent Trough",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "9",
     image: smallToolsImg9,
-    title: "Small Tools",
+    title: "KTKF",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "10",
     image: smallToolsImg10,
-    title: "Small Tools",
+    title: "Negative Insert for Small Parts",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "11",
     image: smallToolsImg11,
-    title: "Small Tools",
+    title: "PR1425 fro Steel",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "12",
     image: smallToolsImg12,
-    title: "Small Tools",
+    title: "PR1225 for Stainless Steel",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "13",
     image: smallToolsImg13,
-    title: "Small Tools",
+    title: "PR1535 MEGACOAT NANO",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "14",
     image: smallToolsImg14,
-    title: "Small Tools",
+    title: "PR1725/PR1705 PDV for Small Parts ",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "15",
     image: smallToolsImg15,
-    title: "Small Tools",
+    title: "Screw-Clamp-JCT Coolent Through",
     details: "Small Tools are a process used to create a shape from a",
   },
   {
     id: "16",
     image: smallToolsImg16,
-    title: "Small Tools",
+    title: "Sharp Edge Inserts for Small Parts",
+    details: "Small Tools are a process used to create a shape from a",
+  },
+  {
+    id: "17",
+    image: smallToolsImg17,
+    title: "ZBMT Series Profiling Tools",
+    details: "Small Tools are a process used to create a shape from a",
+  },
+  {
+    id: "18",
+    image: smallToolsImg18,
+    title: "TKFB-GQ",
+    details: "Small Tools are a process used to create a shape from a",
+  },
+  {
+    id: "19",
+    image: smallToolsImg19,
+    title: "Sub-Spindle for STAR Machine",
     details: "Small Tools are a process used to create a shape from a",
   },
 ];

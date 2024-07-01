@@ -39,7 +39,7 @@ export default function Products() {
     {
       id: 4,
       image: product4,
-      title: "Grooving / Cut-Off",
+      title: "Grooving ",
       details: "Some details about the first card.",
       link: "Click here",
     },
@@ -95,7 +95,9 @@ export default function Products() {
             </h1>
           </div>
         </div>
-        <div className={`${styles.cardsContainer} px-40 mt-8 grid gap-4`}>
+        <div
+          className={`grid gap-4  sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  ${styles.cardsContainer}`}
+        >
           {cardsData.map((card, index) => (
             <Card
               id={card.id}

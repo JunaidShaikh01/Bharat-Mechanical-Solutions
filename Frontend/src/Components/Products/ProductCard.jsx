@@ -4,6 +4,7 @@ import { selectedNameState } from "../Recoil/recoilState";
 import Footer from "../Footer/Footer";
 import productData from "../Data/ProductData";
 const formatName = (name) => {
+  if (!name) return "";
   return name
     .split(" ")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
@@ -13,7 +14,7 @@ export default function ProductCard() {
   const [selectedName] = useRecoilState(selectedNameState);
   console.log("Selected Name in ProductCard: ", selectedName);
   const formattedSelectedName = formatName(selectedName);
-  const normalizedSelectedName = selectedName.toLowerCase();
+  const normalizedSelectedName = selectedName ? selectedName.toLowerCase() : "";
   // Debugging: Log normalizedSelectedName and productData keys
   console.log("Formated Name: ", formattedSelectedName);
   console.log("Product Data Keys: ", Object.keys(productData));
