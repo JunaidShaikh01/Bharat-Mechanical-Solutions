@@ -39,7 +39,7 @@ export default function Nvabar() {
         <Link to="/contact">Contact</Link>
       </div>
       {isMemuOpen && (
-        <div className="fixed top-0 right-0 flex items-center justify-center w-1/2 h-full bg-black text-white text-3xl  z-50">
+        <div className="fixed top-0 right-0 opacity-50 flex items-center justify-center w-1/2 h-full bg-black text-white text-3xl  z-50">
           <button
             onClick={togegleMemu}
             className="absolute top-4 right-4 text-white"
