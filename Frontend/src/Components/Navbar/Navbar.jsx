@@ -15,7 +15,7 @@ export default function Nvabar() {
     setIsMenuOpen(!isMemuOpen);
   };
   return (
-    <div className="flex relative justify-between items-center  h-[18vh] px-2 md:-x-4 lg:px-8">
+    <div className="flex relative justify-between items-center  h-[18vh] px-3 md:-x-4 lg:px-8">
       <div className="logoSection flex flex-col  items-start ">
         <img src={logobg} alt="Logo" className="w-[75%] h-18" />
         <h2 className="font-semibold text-xl lg:text-2xl  text-gray-500 ">
@@ -36,12 +36,22 @@ export default function Nvabar() {
           isMemuOpen ? "hidden" : "hidden lg:flex"
         }  gap-6 font-semibold text-xl `} /* Updated */
       >
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/products">Products</Link>
-        <Link to="/resources">Resources</Link>
+        <Link className="hover:text-[#df6553] font-oswald" to="/">
+          Home
+        </Link>
+        <Link className="hover:text-[#df6553] font-oswald" to="/about">
+          About
+        </Link>
+        <Link className="hover:text-[#df6553] font-oswald" to="/products">
+          Products
+        </Link>
+        <Link className="hover:text-[#df6553] font-oswald" to="/resources">
+          Resources
+        </Link>
 
-        <Link to="/contact">Contact</Link>
+        <Link className="hover:text-[#df6553] font-oswald" to="/contact">
+          Contact
+        </Link>
       </div>
       {isMemuOpen && (
         <div className="fixed top-0 right-0   w-full  h-full bg-black   text-white text-3xl  z-50">
@@ -56,20 +66,40 @@ export default function Nvabar() {
 
           <div className="flex w-full h-[60%] justify-center items-center">
             <div className="flex  flex-col  gap-4 mb-8">
-              <Link to="/" onClick={togegleMemu} className="mb-4">
+              <Link
+                to="/"
+                onClick={togegleMemu}
+                className="mb-4 hover:text-[#df6553]"
+              >
                 Home
               </Link>
-              <Link to="/about" onClick={togegleMemu} className="mb-4">
+              <Link
+                to="/about"
+                onClick={togegleMemu}
+                className="mb-4 hover:text-[#df6553]"
+              >
                 About
               </Link>
-              <Link to="/products" onClick={togegleMemu} className="mb-4">
+              <Link
+                to="/products"
+                onClick={togegleMemu}
+                className="mb-4 hover:text-[#df6553]"
+              >
                 Products
               </Link>
-              <Link to="/resources" onClick={togegleMemu} className="mb-4">
+              <Link
+                to="/resources"
+                onClick={togegleMemu}
+                className="mb-4 hover:text-[#df6553]"
+              >
                 Resources
               </Link>
 
-              <Link to="/contact" onClick={togegleMemu} className="mb-4">
+              <Link
+                to="/contact"
+                onClick={togegleMemu}
+                className="mb-4 hover:text-[#df6553]"
+              >
                 Contact
               </Link>
             </div>

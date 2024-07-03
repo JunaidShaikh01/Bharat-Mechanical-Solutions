@@ -26,7 +26,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex  px-[10rem] mt-8 gap-3">
+        <div className="flex px-3 lg:px-[10rem] mt-8 gap-3">
           <div className="image w-[50%] relative group">
             <img
               src={img1}
@@ -41,19 +41,18 @@ export default function About() {
               </button>
             </Link>
           </div>
-          <div className="text w-[50%] flex items-center justify-center px-4">
+          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
             <p>
-              At Bharat Mechanical Solutions FZE, we take pride in our
-              commitment to constantly expand our range of services and products
-              to meet the ever-evolving needs of our esteemed clients. We are
-              driven by our passion for excellence and our mission to provide
-              innovative solutions that drive growth and productivity
+              Bharat Mechanical Solutions FZE is a leading company in the Middle
+              East, providing top quality industrial tools and solutions to
+              various industries. Our company takes immense pride in being the
+              authorized distributor of KYOCERA cutting tools in the region.
             </p>
           </div>
         </div>
 
-        <div className="flex  px-[10rem] mt-8 gap-3 ">
-          <div className="text w-[50%] flex items-center justify-center px-4">
+        <div className="flex  px-3 lg:px-[10rem] mt-8 gap-3 ">
+          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
             <p>
               At Bharat Mechanical Solutions FZE, we take pride in our
               commitment to constantly expand our range of services and products
@@ -78,7 +77,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex  px-[10rem] mt-8 gap-3 mb-8">
+        <div className="flex  px-3 lg:px-[10rem] mt-8 gap-3 mb-8">
           <div className="image w-[50%] relative group">
             <img
               src={img3}
@@ -93,13 +92,16 @@ export default function About() {
               </button>
             </Link>
           </div>
-          <div className="text w-[50%] flex items-center justify-center px-4">
+          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
             <p>
-              At Bharat Mechanical Solutions FZE, we take pride in our
-              commitment to constantly expand our range of services and products
-              to meet the ever-evolving needs of our esteemed clients. We are
-              driven by our passion for excellence and our mission to provide
-              innovative solutions that drive growth and productivity
+              Our partnership with KYOCERA, one of the world's leading
+              manufacturers of industrial cutting tools, solidifies our position
+              as a provider of high-quality products. As an authorized
+              distributor, we offer an extensive range of premium-grade cutting
+              tools including drills, end mills, turning inserts, threading
+              tools and more. These tools are designed using state-of-the-art
+              technology and are known for their precision, durability and
+              performance.
             </p>
           </div>
         </div>
