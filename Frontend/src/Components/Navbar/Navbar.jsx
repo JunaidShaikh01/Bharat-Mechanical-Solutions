@@ -18,7 +18,7 @@ export default function Nvabar() {
     <div className="flex relative justify-between items-center  h-[18vh] px-8">
       <div className="logoSection flex flex-col  items-start ">
         <img src={logobg} alt="Logo" className="w-[75%] h-18" />
-        <h2 className="font-semibold text-xl lg:text-2xl  text-gray-500 ml-2 sm:ml-4">
+        <h2 className="font-semibold text-xl lg:text-2xl  text-gray-500 ">
           Bharat Mechanical Solutions
         </h2>
       </div>
@@ -50,11 +50,7 @@ export default function Nvabar() {
               <img src={logobg} alt="logo" srcset="" />
             </div>
             <button onClick={togegleMemu} className=" text-white">
-              <FontAwesomeIcon
-                icon={faTimes}
-                className="text-white"
-                size="2x"
-              />
+              <FontAwesomeIcon icon={faTimes} className="text-white" />
             </button>
           </div>
 
