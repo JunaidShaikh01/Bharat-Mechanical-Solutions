@@ -10,7 +10,7 @@ export default function Nvabar() {
     setIsMenuOpen(!isMemuOpen);
   };
   return (
-    <div className="flex justify-between items-center h-[18vh] px-8">
+    <div className="flex relative justify-between items-center h-[18vh] px-8">
       <div className="logoSection flex flex-col items-center  ">
         <img src={logo} alt="Logo" className="w-[75%] h-18" />
         <h2 className="font-semibold text-2xl text-gray-500">
@@ -20,13 +20,13 @@ export default function Nvabar() {
       <div className="flex lg:hidden">
         <button onClick={togegleMemu}>
           {isMemuOpen ? (
-            <FontAwesomeIcon icon={faTimes} size="2x" className="text-white" />
+            <FontAwesomeIcon icon={faTimes} size="2x" />
           ) : (
             <FontAwesomeIcon icon={faBars} size="2x" />
           )}
         </button>
       </div>
-      <div
+      {/* <div
         className={`${
           isMemuOpen ? "flex" : "hidden"
         } flex-col gap-4 font-semibold text-lg lg:flex lg:flex-row`}
@@ -37,15 +37,15 @@ export default function Nvabar() {
         <Link to="/resources">Resources</Link>
         <Link>Events</Link>
         <Link to="/contact">Contact</Link>
-      </div>
+      </div> */}
       {isMemuOpen && (
-        <div className="fixed top-0 right-0 opacity-50 flex items-center justify-center w-1/2 h-full bg-black text-white text-3xl  z-50">
-          <button
+        <div className="fixed top-[18vh] right-0  flex items-center justify-center w-1/2 h-full bg-black text-white text-3xl  z-50">
+          {/* <button
             onClick={togegleMemu}
             className="absolute top-4 right-4 text-white"
           >
             <FontAwesomeIcon icon={faTimes} size="2x" className="text-white" />
-          </button>
+          </button> */}
           <div className="flex flex-col items-center justify-center gap-8">
             <Link to="/" onClick={togegleMemu} className="mb-4">
               Home
