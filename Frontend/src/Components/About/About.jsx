@@ -32,7 +32,7 @@ export default function About() {
               src={img1}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh] object-cover shadow-xl"
+              className="w-full h-[70vh]  shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
@@ -66,7 +66,7 @@ export default function About() {
               src={img2}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh] object-cover shadow-xl"
+              className="w-full h-[70vh]  shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
@@ -83,7 +83,7 @@ export default function About() {
               src={img3}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh] object-cover shadow-xl"
+              className="w-full h-[70vh]  shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
