@@ -15,7 +15,7 @@ export default function Nvabar() {
     setIsMenuOpen(!isMemuOpen);
   };
   return (
-    <div className="flex relative justify-between items-center  h-[18vh] px-8">
+    <div className="flex relative justify-between items-center  h-[18vh] px-2 md:-x-4 lg:px-8">
       <div className="logoSection flex flex-col  items-start ">
         <img src={logobg} alt="Logo" className="w-[75%] h-18" />
         <h2 className="font-semibold text-xl lg:text-2xl  text-gray-500 ">
