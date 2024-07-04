@@ -65,7 +65,7 @@ export default function Nvabar() {
           </div>
 
           <div className="flex w-full h-[60%] justify-center items-center">
-            <div className="flex  flex-col  gap-4 mb-8">
+            <div className="flex  flex-col  gap-4 mb-8 items-center">
               <Link
                 to="/"
                 onClick={togegleMemu}

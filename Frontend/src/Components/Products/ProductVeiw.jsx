@@ -97,7 +97,7 @@ export default function ProductVeiw() {
     <div>
       <Nvabar />
       <div className="productMain  ">
-        <div className="border-t  flex justify-center border-gray-200 border-b-2 px-16">
+        <div className="border-t  flex justify-center border-gray-200 border-b-2 px-4 md:px-16">
           {productData.map((product) =>
             product.id === selectedId ? (
               <div
@@ -107,11 +107,13 @@ export default function ProductVeiw() {
                 <img
                   src={product.image}
                   alt={product.title2}
-                  className="h-[60%] w-[70%] shadow-xl rounded-lg object-cover"
+                  className="h-[60%] w-full md:w-[70%] shadow-xl rounded-lg "
                 />
-                <div className="flex  gap-4 mt-0 items-center">
-                  <h2 className="font-bold text-3xl">{product.title1}</h2>
-                  <h2 className="text-2xl">{product.title2}</h2>
+                <div className="flex  gap-4 mt-0 items-center flex-col md:flex-row">
+                  <div className="flex gap-2 items-center">
+                    <h2 className="font-bold text-3xl">{product.title1}</h2>
+                    <h2 className="text-2xl">{product.title2}</h2>
+                  </div>
 
                   <a
                     href={gmailLink}

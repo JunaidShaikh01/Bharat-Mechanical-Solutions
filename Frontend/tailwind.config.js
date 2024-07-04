@@ -8,7 +8,23 @@ export default {
         rajdhani: ["Rajdhani", "sans-serif"],
         josefine: ["Josefin Slab", "serif"],
       },
+      filter: {
+        white: "brightness(0) invert(1)",
+        red: "sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.9)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".filter-white": {
+          filter: "brightness(0) invert(1)",
+        },
+        ".filter-red": {
+          filter: "sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.9)",
+        },
+        // Add more custom filter classes as needed
+      });
+    },
+  ],
 };
