@@ -25,7 +25,7 @@ export default function Nvabar() {
       <div className="flex lg:hidden">
         <button onClick={togegleMemu}>
           {isMemuOpen ? (
-            <FontAwesomeIcon icon={faTimes} size="2x" />
+            <FontAwesomeIcon icon={faTimes} size="2x" className="text-white" />
           ) : (
             <FontAwesomeIcon icon={faBars} size="2x" />
           )}

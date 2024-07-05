@@ -15,6 +15,7 @@ export default function Frontpage() {
       <OurProducts />
       <AboutUs />
       <OurStrength />
+      {/* <OurCustomer /> */}
       <Footer />
     </div>
   );
