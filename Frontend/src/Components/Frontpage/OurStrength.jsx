@@ -12,7 +12,7 @@ export default function OurStrength() {
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-[#6F2B2B] opacity-90"></div>
         <div className=" w-full relative  text-white px-8 pt-4">
           <h1 className="text-2xl ">OUR STRENGTH</h1>
-          <p className="border-b-2 border-white w-[5%] mt-3 "></p>
+          <p className="border-b-2 border-white w-[25%] sm:-[15%] lg:w-[5%] mt-3 "></p>
         </div>
       </div>
 
