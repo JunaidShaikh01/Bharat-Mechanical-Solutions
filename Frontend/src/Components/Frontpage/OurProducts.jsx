@@ -24,14 +24,13 @@ export default function OurProducts() {
         {/* <button onClick>View More</button> */}
       </div>
 
-      <div className="w-[90vw] absolute top-[12vh] md:top-[20vh]  left-1/2 transform -translate-x-1/2   flex flex-col md:flex-row justify-between ">
+      <div className="w-[90vw] absolute top-[12vh] md:top-[20vh] gap-2 md:gap-0 left-1/2 transform -translate-x-1/2   flex flex-col md:flex-row justify-between ">
         <div className="w-full md:w-[25%]">
           <img
             src={product1}
             alt="Error Loading Image"
             className=" h-[30vh] md:h-[40vh] w-full object-cover"
           />
-
           <div className="h-[15vh] md:h-[30vh] bg-[#6F4F2B] flex items-center justify-center flex-row md:flex-col gap-2 md:gap-4">
             <img
               src={logo1}
