@@ -13,12 +13,12 @@ import imgage4 from "../../Pitchers/Resources/Kyocera_sgs_micro_tools.jpg";
 import imgage5 from "../../Pitchers/Resources/Kyocera_sgs_precision_tools_global_products_catalog.jpg";
 
 //Pdf Imports
-import BmsBrochure from "./pdf/BmsSolutions.pdf";
+// import BmsBrochure from "./pdf/BmsSolutions.pdf";
 // import Pdf1 from "./pdf/2023_2024_Kyocera_Cutting_Tools_General_Catalogue.pdf";
-import Pdf2 from "./pdf/KYOCERA_Round_Tools_Catalog.pdf";
+// import Pdf2 from "./pdf/KYOCERA_Round_Tools_Catalog.pdf";
 // import Pdf3 from "./pdf/2020_KYOCERA_Round_Tools_Digest_Catalog.pdf";
-import Pdf4 from "./pdf/Micro_End_Mills_8_24_2020_web.pdf";
-import Pdf5 from "./pdf/SGS_Global_Catalog_2022-2023.pdf";
+// import Pdf4 from "./pdf/Micro_End_Mills_8_24_2020_web.pdf";
+// import Pdf5 from "./pdf/SGS_Global_Catalog_2022-2023.pdf";
 
 export default function Resources() {
   return (
@@ -58,8 +58,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href={BmsBrochure}
-                download={BmsBrochure}
+                href="/"
+                download="/"
                 className="text-lg font-josefine w-full text-center px-4 bg-[#1f2937] py-1 rounded shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -87,8 +87,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href={Pdf2}
-                download={Pdf2}
+                href="/"
+                download="/"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -115,8 +115,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href={Pdf4}
-                download={Pdf4}
+                href="/"
+                download="/"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -129,8 +129,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href={Pdf5}
-                download={Pdf5}
+                href="/"
+                download="/"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
