@@ -23,7 +23,7 @@ export default function OurStrength() {
             alt="Banner Image"
             className=" h-[60vh] w-[90vw] shadow-xl rounded-3xl"
           />
-          <div className="absolute inset-0 flex flex-wrap items-center justify-evenly bg-black bg-opacity-60 rounded-3xl px-4 lg:px-0 ">
+          <div className="absolute inset-0 flex flex-wrap items-center justify-evenly bg-black bg-opacity-60 rounded-3xl px-4 lg:px-0  overflow-scroll">
             <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
               <img src={icon1} alt="Icon 1" className="h-20 filter-white  " />
               <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
