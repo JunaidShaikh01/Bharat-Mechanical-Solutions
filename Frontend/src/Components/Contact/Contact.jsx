@@ -18,7 +18,7 @@ export default function Contact() {
     <div>
       <Nvabar />
       <div className="contactSection ">
-        <div className="bannerSection h-[82vh] relative ">
+        <div className="bannerSection h-[55vh] sm:h-[82vh] relative ">
           <img
             src={banner}
             alt="banner"

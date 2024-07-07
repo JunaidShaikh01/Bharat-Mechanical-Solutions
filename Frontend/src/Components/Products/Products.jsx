@@ -83,7 +83,7 @@ export default function Products() {
     <div>
       <Nvabar />
       <div className="Products flex flex-col gap-4 mb-8">
-        <div className="productSection h-[82vh] relative ">
+        <div className="productSection h-[55vh] sm:h-[82vh] relative ">
           <img
             src={banner}
             alt="banner"

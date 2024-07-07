@@ -13,7 +13,7 @@ export default function About() {
     <div>
       <Nvabar />
       <div className="aboutSection flex flex-col gap-4">
-        <div className="bannerSection h-[82vh] relative ">
+        <div className="bannerSection h-[55vh] sm:h-[82vh] relative ">
           <img
             src={banner}
             alt="banner"
