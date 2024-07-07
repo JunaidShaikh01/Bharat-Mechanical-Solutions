@@ -58,8 +58,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/1ZEY6oz3crA0IL5QjYa-JVXJ9vLTYkn5P/view?usp=drive_link"
+                target="_blank"
                 className="text-lg font-josefine w-full text-center px-4 bg-[#1f2937] py-1 rounded shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -73,8 +73,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/1eiYBTsiY60c1HFM1Q60ZLPNRllRGCeH_/view?usp=drive_link"
+                target="_blank"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -87,8 +87,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/1qhJzPZafWdonXkWCs2j5JXOqhDifnFNT/view?usp=drive_link"
+                target="_blank"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -101,8 +101,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/12G50TTG8uzF1sG6OUnUhTmXOt3cJboIU/view?usp=drive_link"
+                target="_blank"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -115,8 +115,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/1ZUKyF4gpzsmxjIoxQky6jWEr-hv-Lx6T/view?usp=drive_link"
+                target="_blank"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
@@ -129,8 +129,8 @@ export default function Resources() {
                 className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
               />
               <a
-                href="/"
-                download="/"
+                href="https://drive.google.com/file/d/1AL8APs-EH4B5pGVqdfaiOBbaY3y5d92A/view?usp=drive_link"
+                target="_blank"
                 className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
               >
                 Download Pdf
