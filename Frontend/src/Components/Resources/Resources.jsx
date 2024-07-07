@@ -12,19 +12,11 @@ import imgage3 from "../../Pitchers/Resources/kyocera_Round_Tools_Digital_Catalo
 import imgage4 from "../../Pitchers/Resources/Kyocera_sgs_micro_tools.jpg";
 import imgage5 from "../../Pitchers/Resources/Kyocera_sgs_precision_tools_global_products_catalog.jpg";
 
-//Pdf Imports
-// import BmsBrochure from "./pdf/BmsSolutions.pdf";
-// import Pdf1 from "./pdf/2023_2024_Kyocera_Cutting_Tools_General_Catalogue.pdf";
-// import Pdf2 from "./pdf/KYOCERA_Round_Tools_Catalog.pdf";
-// import Pdf3 from "./pdf/2020_KYOCERA_Round_Tools_Digest_Catalog.pdf";
-// import Pdf4 from "./pdf/Micro_End_Mills_8_24_2020_web.pdf";
-// import Pdf5 from "./pdf/SGS_Global_Catalog_2022-2023.pdf";
-
 export default function Resources() {
   return (
     <div>
       <Nvabar />
-      <div className="bannerSection h-[82vh] relative  ">
+      <div className="bannerSection h-[50vh] sm:h-[82vh] relative  ">
         <img
           src={resourcesBanner}
           alt="Recources Banner"
