@@ -26,8 +26,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex px-3 lg:px-[10rem] mt-8 gap-3">
-          <div className="image w-[50%] relative group">
+        <div className="flex  flex-col md:flex-row px-8  md:px-3 lg:px-[10rem] mt-8 gap-5 md:gap-3">
+          <div className="image w-full md:w-[50%] relative group">
             <img
               src={img1}
               alt="About Section"
@@ -41,8 +41,8 @@ export default function About() {
               </button>
             </Link>
           </div>
-          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
-            <p>
+          <div className="text w-full md:w-[50%] flex items-center justify-center px-4 font-rajdhani">
+            <p className="text-center drop-shadow-xl text-2xl">
               Bharat Mechanical Solutions FZE is a leading company in the Middle
               East, providing top quality industrial tools and solutions to
               various industries. Our company takes immense pride in being the
@@ -51,9 +51,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex  px-3 lg:px-[10rem] mt-8 gap-3 ">
-          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
-            <p>
+        <div className="flex flex-col-reverse md:flex-row px-8 md:px-3 lg:px-[10rem] mt-8 gap-5 md:gap-3 ">
+          <div className="text w-full md:w-[50%] flex items-center justify-center px-4 font-rajdhani">
+            <p className="text-center drop-shadow-xl text-2xl">
               At Bharat Mechanical Solutions FZE, we take pride in our
               commitment to constantly expand our range of services and products
               to meet the ever-evolving needs of our esteemed clients. We are
@@ -61,7 +61,7 @@ export default function About() {
               innovative solutions that drive growth and productivity
             </p>
           </div>
-          <div className="image w-[50%] relative group">
+          <div className="image w-full md:w-[50%] relative group">
             <img
               src={img2}
               alt="About Section"
@@ -77,8 +77,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex  px-3 lg:px-[10rem] mt-8 gap-3 mb-8">
-          <div className="image w-[50%] relative group">
+        <div className="flex flex-col md:flex-row px-8 md:px-3 lg:px-[10rem] mt-8 gap-5 md:gap-3 mb-8">
+          <div className="image w-full md:w-[50%] relative group">
             <img
               src={img3}
               alt="About Section"
@@ -92,8 +92,8 @@ export default function About() {
               </button>
             </Link>
           </div>
-          <div className="text w-[50%] flex items-center justify-center px-4 font-rajdhani">
-            <p>
+          <div className="text w-full md:w-[50%] flex items-center justify-center  px-4 font-rajdhani">
+            <p className="text-center drop-shadow-xl text-2xl mt-2 ">
               Our partnership with KYOCERA, one of the world's leading
               manufacturers of industrial cutting tools, solidifies our position
               as a provider of high-quality products. As an authorized

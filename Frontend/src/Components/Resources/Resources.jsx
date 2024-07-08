@@ -24,7 +24,7 @@ export default function Resources() {
         />
         <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
           <h1 className="text-white text-5xl  font-thin z-70 cursor-pointer">
-            Our Resources{" "}
+            Resources{" "}
           </h1>
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function Resources() {
       </div>
       <div className="flex flex-col items-center justify-center gap-4 my-4 bg-blue-50">
         <p className="text-2xl text-zinc-950 my-5 text-center px-4">
-          CERTIFICATIONS OF AUTHENTICATION
+          CERTIFICATION OF AUTHENTICATION
         </p>
         <img
           src={certicate}
