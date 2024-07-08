@@ -37,6 +37,8 @@ export default function OurCustomer() {
         <div className="w-full bg-[#F5F5F5] h-[70vh] shadow-xl">
           <img
             src={image2}
+
+            
             alt="Customer 1"
             className="w-full object-cover h-[40%]"
           />
