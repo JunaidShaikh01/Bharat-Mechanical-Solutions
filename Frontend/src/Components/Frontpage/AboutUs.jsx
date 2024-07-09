@@ -8,7 +8,7 @@ export default function AboutUs() {
     navigate("/about");
   };
   return (
-    <div className="px-8 lg:h-[80vh] flex justify-between lg:flex-row flex-col mb-8 bg-zinc-100">
+    <div className="px-8 lg:h-[80vh] flex justify-between lg:flex-row mt-8 md:mt-0 flex-col mb-8 bg-zinc-100">
       <div className="textSection  lg:w-[40%] mt-4 mb-4 lg:mb-0">
         <div>
           <h1 className="text-2xl">ABOUT US</h1>

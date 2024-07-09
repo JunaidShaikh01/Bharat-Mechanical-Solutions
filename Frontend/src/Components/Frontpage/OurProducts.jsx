@@ -14,7 +14,7 @@ export default function OurProducts() {
   //     navigate("/products");
   //   };
   return (
-    <div className="relative h-[195vh] md:h-[100vh] mt-4">
+    <div className="relative h-[195vh] md:h-[100vh] mt-4 mb-4 md:mb-0">
       <div className="relative h-[20vh] md:h-[30vh] bg-[#6F2B2B]">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="w-full relative text-white px-8 pt-4 z-10">
