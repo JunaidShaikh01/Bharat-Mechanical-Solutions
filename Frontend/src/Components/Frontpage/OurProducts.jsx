@@ -44,7 +44,7 @@ export default function OurProducts() {
           </div>
         </div>
 
-        <div className="w-full md:w-[25%]">
+        <div className="w-full mb-4 shadow-xl md:shadow-none md:md-0 md:w-[25%]">
           <div className="h-[15vh] md:h-[30vh] bg-[#46382b] flex items-center justify-center flex-row md:flex-col gap-2 md:gap-4">
             <img
               src={logo2}

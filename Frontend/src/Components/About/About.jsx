@@ -32,7 +32,7 @@ export default function About() {
               src={img1}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh]  shadow-xl"
+              className="w-full h-50vh sm:h-[60vh] md:h-[70vh]  shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
@@ -42,7 +42,7 @@ export default function About() {
             </Link>
           </div>
           <div className="text w-full md:w-[50%] flex items-center justify-center px-4 font-rajdhani">
-            <p className="text-center drop-shadow-xl text-2xl">
+            <p className="text-center drop-shadow-xl text-xl md:text-2xl">
               Bharat Mechanical Solutions FZE is a leading company in the Middle
               East, providing top quality industrial tools and solutions to
               various industries. Our company takes immense pride in being the
@@ -53,7 +53,7 @@ export default function About() {
 
         <div className="flex flex-col-reverse md:flex-row px-8 md:px-3 lg:px-[10rem] mt-8 gap-5 md:gap-3 ">
           <div className="text w-full md:w-[50%] flex items-center justify-center px-4 font-rajdhani">
-            <p className="text-center drop-shadow-xl text-2xl">
+            <p className="text-center drop-shadow-xl text-xl md:text-2xl">
               At Bharat Mechanical Solutions FZE, we take pride in our
               commitment to constantly expand our range of services and products
               to meet the ever-evolving needs of our esteemed clients. We are
@@ -66,7 +66,7 @@ export default function About() {
               src={img2}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh]  shadow-xl"
+              className="w-full h-50vh sm:h-[60vh]   shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
@@ -83,7 +83,7 @@ export default function About() {
               src={img3}
               alt="About Section"
               srcset=""
-              className="w-full h-[70vh]  shadow-xl"
+              className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh]  shadow-xl"
             />
             <Link to="/products">
               <button className="absolute inset-0 opacity-0 group-hover:opacity-80 bg-black bg-opacity-70 text-white text-xl items-center justify-center transition-opacity duration-500 ease-in-out border ">
@@ -93,7 +93,7 @@ export default function About() {
             </Link>
           </div>
           <div className="text w-full md:w-[50%] flex items-center justify-center  px-4 font-rajdhani">
-            <p className="text-center drop-shadow-xl text-2xl mt-2 ">
+            <p className="text-center drop-shadow-xl text-xl md:text-2xl mt-2 ">
               Our partnership with KYOCERA, one of the world's leading
               manufacturers of industrial cutting tools, solidifies our position
               as a provider of high-quality products. As an authorized
