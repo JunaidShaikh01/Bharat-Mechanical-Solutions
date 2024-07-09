@@ -99,7 +99,10 @@ export default function Sliders() {
           </div>
         </div>
         {slides.map((slide, index) => (
-          <div key={index} className="relative flex-shrink-0 w-full h-[75vh]">
+          <div
+            key={index}
+            className="relative flex-shrink-0 w-full h-[70vh] lg:h-[90vh]"
+          >
             <img
               src={slide.image}
               alt={`Slide ${slide.id}`}

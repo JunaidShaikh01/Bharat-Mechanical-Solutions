@@ -2,16 +2,15 @@ import React from "react";
 import { useRecoilState } from "recoil";
 import { selectedIdState } from "../Recoil/recoilState";
 import Nvabar from "../Navbar/Navbar";
-import product1 from "../../Pitchers/Milling/milling-banner.jpg";
-import product2 from "../../Pitchers/turning-cat.jpg";
-import product3 from "../../Pitchers/drilling-cat.jpg";
-import product4 from "../../Pitchers/grooving-cat.jpg";
-import product5 from "../../Pitchers/threading-cat.jpg";
-import product6 from "../../Pitchers/small-tools-cat.jpg";
-import product7 from "../../Pitchers/api-ring-groover-thumb.jpg";
-import product8 from "../../Pitchers/custom-tools-cat.jpg";
-import product9 from "../../Pitchers/solid-carbide-micro-tools-cat.jpg";
-import { Link } from "react-router-dom";
+import product1 from "../../Pitchers/ProductsBanner/Milling.jpg";
+import product2 from "../../Pitchers/ProductsBanner/Turning.jpg";
+import product3 from "../../Pitchers/ProductsBanner/Drilling.jpg";
+import product4 from "../../Pitchers/ProductsBanner/Grooving.jpg";
+import product5 from "../../Pitchers/ProductsBanner/Threading.jpg";
+import product6 from "../../Pitchers/ProductsBanner/SmallTools.jpg";
+import product7 from "../../Pitchers/ProductsBanner/APIRingGroover.jpg";
+import product8 from "../../Pitchers/ProductsBanner/CustomTools.jpg";
+import product9 from "../../Pitchers/Solid Round/SolidCarbideRoundTools.jpg";
 import ProductCard from "./ProductCard";
 export default function ProductVeiw() {
   const [selectedId] = useRecoilState(selectedIdState);
@@ -107,7 +106,7 @@ export default function ProductVeiw() {
                 <img
                   src={product.image}
                   alt={product.title2}
-                  className="h-[60%] w-full md:w-[70%] shadow-xl rounded-lg "
+                  className="h-[40%] w-full md:w-[70%] shadow-xl rounded-lg "
                 />
                 <div className="flex  gap-4 mt-0 items-center flex-col md:flex-row">
                   <div className="flex gap-2 items-center">
