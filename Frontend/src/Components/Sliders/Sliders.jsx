@@ -21,7 +21,7 @@ export default function Sliders() {
       title1: "MB45 Series",
       title2: "45° General Purpose Milling Series",
       description:
-        "Setting a new standard for general purpose milling featuring economical 8-edge inserts and an innovative new helical body design giving customers a more durable and versatile cutter with better finish capabilities over conventional mills.",
+        "Durable And Versatile Performance with Economical 8-Edge Inserts",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ export default function Sliders() {
       title1: "MA90 Series",
       title2: "90° Tangential Milling Series",
       description:
-        "KYOCERA introduces the MA90 Milling Series featuring 4-edge tangentially mounted inserts, ensuring ultimate body rigidity, superior chip evacuation, enhanced tool life, and impeccable surface finishes.",
+        "Tough and Relaible Performance Higher Rigidity with Lower Cutting Forces",
     },
     {
       id: 4,
@@ -84,14 +84,14 @@ export default function Sliders() {
             alt={`Slide ${slides[slides.length - 1].id}`}
             className="w-full h-full"
           />
-          <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center bg-black">
+          <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center">
             <div className="pl-6 sm:pl-16 flex flex-col gap-4 w-[50%]">
               <h1 className="text-gray-400 text-[1.8rem] sm:text-[2.5rem] font-bold ">
                 {slides[slides.length - 1].title1}
               </h1>
               <h4 className="text-[#d6d4d4] text-[1.4rem] sm:text-[1.5rem] font-semibold">
                 {slides[slides.length - 1].title2}
-              </h4>``
+              </h4>
               <p className="text-[#b7b6b6] text-[1rem] sm:text-[1.2rem]">
                 {slides[slides.length - 1].description}
               </p>
@@ -99,16 +99,13 @@ export default function Sliders() {
           </div>
         </div>
         {slides.map((slide, index) => (
-          <div
-            key={index}
-            className="relative flex-shrink-0 w-full h-[75vh]"
-          >
+          <div key={index} className="relative flex-shrink-0 w-full h-[75vh]">
             <img
               src={slide.image}
               alt={`Slide ${slide.id}`}
               className="w-full h-full"
             />
-            <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center bg-black">
+            <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center">
               <div className="pl-6 sm:pl-16 flex flex-col gap-4 w-[50%]">
                 <h1 className="text-gray-400 text-[1.8rem] sm:text-[2.5rem] font-bold ">
                   {slide.title1}
@@ -129,7 +126,7 @@ export default function Sliders() {
             alt={`Slide ${slides[0].id}`}
             className="w-full h-full"
           />
-          <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center bg-black">
+          <div className="absolute inset-0 bg-opacity-50 flex flex-col items-start justify-center">
             <div className="pl-6 sm:pl-16 flex flex-col gap-4 w-[50%]">
               <h1 className="text-gray-400 text-[1.8rem] sm:text-[2.5rem] font-bold ">
                 {slides[0].title1}
