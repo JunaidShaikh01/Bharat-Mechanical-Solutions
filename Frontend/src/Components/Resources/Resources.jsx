@@ -12,6 +12,33 @@ import imgage3 from "../../Pitchers/Resources/kyocera_Round_Tools_Digital_Catalo
 import imgage4 from "../../Pitchers/Resources/Kyocera_sgs_micro_tools.jpg";
 import imgage5 from "../../Pitchers/Resources/Kyocera_sgs_precision_tools_global_products_catalog.jpg";
 
+const catalogsDetails = [
+  {
+    imgage: BmsBanner,
+    link: "https://drive.google.com/file/d/1ZEY6oz3crA0IL5QjYa-JVXJ9vLTYkn5P/view?usp=drive_link",
+  },
+  {
+    imgage: imgage1,
+    link: "https://drive.google.com/file/d/1eiYBTsiY60c1HFM1Q60ZLPNRllRGCeH_/view?usp=drive_link",
+  },
+  {
+    imgage: imgage2,
+    link: "https://drive.google.com/file/d/1qhJzPZafWdonXkWCs2j5JXOqhDifnFNT/view?usp=drive_link",
+  },
+  {
+    imgage: imgage3,
+    link: "https://drive.google.com/file/d/12G50TTG8uzF1sG6OUnUhTmXOt3cJboIU/view?usp=drive_link",
+  },
+  {
+    imgage: imgage4,
+    link: "https://drive.google.com/file/d/1ZUKyF4gpzsmxjIoxQky6jWEr-hv-Lx6T/view?usp=drive_link",
+  },
+  {
+    imgage: imgage5,
+    link: "https://drive.google.com/file/d/1AL8APs-EH4B5pGVqdfaiOBbaY3y5d92A/view?usp=drive_link",
+  },
+];
+
 export default function Resources() {
   return (
     <div>
@@ -43,91 +70,27 @@ export default function Resources() {
             </h6>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 ">
-            <div className="flex  flex-col w-full items-center gap-2 border-2  border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={BmsBanner}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/1ZEY6oz3crA0IL5QjYa-JVXJ9vLTYkn5P/view?usp=drive_link"
-                target="_blank"
-                className="text-lg font-josefine w-full text-center px-4 bg-[#1f2937] py-1 rounded shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
-
-            <div className="flex  flex-col w-full items-center gap-2 border-2  border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={imgage1}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/1eiYBTsiY60c1HFM1Q60ZLPNRllRGCeH_/view?usp=drive_link"
-                target="_blank"
-                className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
-            <div className="flex  flex-col w-full items-center gap-2 border-2  border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={imgage2}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/1qhJzPZafWdonXkWCs2j5JXOqhDifnFNT/view?usp=drive_link"
-                target="_blank"
-                className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
-            <div className="flex  flex-col w-full items-center gap-2 border-2  border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={imgage3}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/12G50TTG8uzF1sG6OUnUhTmXOt3cJboIU/view?usp=drive_link"
-                target="_blank"
-                className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
-            <div className="flex  flex-col w-full items-center gap-2 border-2 border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={imgage4}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/1ZUKyF4gpzsmxjIoxQky6jWEr-hv-Lx6T/view?usp=drive_link"
-                target="_blank"
-                className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
-            <div className="flex  flex-col w-full items-center gap-2 border-2 border-zinc-300 shadow-md rounded-md p-4">
-              <img
-                src={imgage5}
-                alt="Error While Loading The Image"
-                className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
-              />
-              <a
-                href="https://drive.google.com/file/d/1AL8APs-EH4B5pGVqdfaiOBbaY3y5d92A/view?usp=drive_link"
-                target="_blank"
-                className="text-lg w-full text-center font-josefine px-4 bg-[#1f2937] py-1 rounded-md shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
-              >
-                Download Pdf
-              </a>
-            </div>
+            {catalogsDetails.map((catalog, index) => {
+              return (
+                <div
+                  key={index}
+                  className="flex  flex-col w-full items-center gap-2 border-2  border-zinc-300 shadow-md rounded-md p-4"
+                >
+                  <img
+                    src={catalog.imgage}
+                    alt="Error While Loading The Image"
+                    className="h-[40vh] md:h-[50vh] w-[70vw] md:w-[40vw] lg:w-[20vw] shadow-xl rounded-md"
+                  />
+                  <a
+                    href={catalog.link}
+                    target="_blank"
+                    className="text-lg font-josefine w-full text-center px-4 bg-[#1f2937] py-1 rounded shadow-lg text-white hover:text-white hover:bg-[#374151] transform duration-300 ease-in-out"
+                  >
+                    Download Pdf
+                  </a>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

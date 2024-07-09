@@ -5,6 +5,28 @@ import icon2 from "../../Pitchers/OurStrength/machining.png";
 import icon3 from "../../Pitchers/OurStrength/TrustedDurability.png";
 import icon4 from "../../Pitchers/OurStrength/BudgetFriendly.png";
 import icon5 from "../../Pitchers/OurStrength/GratefullCustomer.png";
+const icons = [
+  {
+    icon: icon1,
+    title: "  Exceptional Quality",
+  },
+  {
+    icon: icon2,
+    title: "Perfect Accuracy",
+  },
+  {
+    icon: icon3,
+    title: "Trusted Durability",
+  },
+  {
+    icon: icon4,
+    title: "Budget Friendly",
+  },
+  {
+    icon: icon5,
+    title: "Grateful Customers",
+  },
+];
 export default function OurStrength() {
   return (
     <div className="relative h-[80vh] lg:h-[100vh]">
@@ -24,40 +46,23 @@ export default function OurStrength() {
             className=" h-[60vh] w-[90vw] shadow-xl rounded-3xl"
           />
           <div className="absolute inset-0 flex flex-wrap items-center justify-evenly bg-black bg-opacity-60 rounded-3xl px-4 lg:px-0  overflow-scroll sm:overflow-hidden">
-            <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
-              <img src={icon1} alt="Icon 1" className="h-20 filter-white  " />
-              <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
-                Exceptional Quality
-              </p>
-            </div>
-            <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
-              <img src={icon2} alt="Icon 2" className="h-20  filter-white" />
-              <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
-                Perfect Accuracy
-              </p>
-            </div>
-            <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
-              <img
-                src={icon3}
-                alt="Icon 3"
-                className="h-20 filter-white font-bold"
-              />
-              <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
-                Trusted Durability
-              </p>
-            </div>
-            <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
-              <img src={icon4} alt="Icon 4" className=" h-20 filter-white" />
-              <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
-                Budget Friendly
-              </p>
-            </div>
-            <div className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2">
-              <img src={icon5} alt="Icon 5" className="h-20 filter-white" />
-              <p className="text-center text-sm sm:text-base   md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
-                Grateful Customers
-              </p>
-            </div>
+            {icons.map((icon, index) => {
+              return (
+                <div
+                  key={index}
+                  className="z-50 text-white flex flex-col items-center justify-center gap-4 m-1 mb:m-2"
+                >
+                  <img
+                    src={icon.icon}
+                    alt="Icon"
+                    className="h-20 filter-white  "
+                  />
+                  <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
+                    {icon.title}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
