@@ -59,7 +59,7 @@ export default function Resources() {
         <div className=" mt-4">
           <h1 className=" text-2xl text-zinc-950"> CATALOG LIST</h1>
           <p className="text-zinc-800 text-xl pl-4 mt-2">
-            View and download the our most recent Cutting Tools catalogs
+            View and download our most recent cutting tools catalogs
           </p>
           <p className="border-b-2 border-black w-full  mt-3 "></p>
         </div>
