@@ -25,7 +25,7 @@ const Card = ({ image, title, details,  id }) => {
       className={`${styles.card}  shadow-lg rounded-lg overflow-hidden`}
       onClick={handleClick}
     >
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <img src={image} alt={title} className="w-full h-48 " />
       <div className="p-4">
         <h2 className="text-2xl font-semibold mb-2">{title}</h2>
         <p className="text-gray-700 mb-4">{details}</p>
