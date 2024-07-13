@@ -14,6 +14,8 @@ import {
 export default function Contact() {
   const email = "bharat.mechsolutions@gmail.com";
   const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
+  const phoneNumber = "+971561770937";
+  const phoneLink = `tel:${phoneNumber}`;
   return (
     <div>
       <Nvabar />
@@ -68,7 +70,9 @@ export default function Contact() {
                 <FontAwesomeIcon icon={faPhone} className="text-3xl" />
               </div>
               <h1 className="text-2xl font-semibold text-center">Call us</h1>
-              <h1 className="text-xl">+971561770937</h1>
+              <a href={phoneLink} className="text-xl">
+                {phoneNumber}
+              </a>
             </div>
             <div className="flex items-center flex-col gap-2 ">
               <div className="bg-black h-20 w-20 text-white rounded-full flex items-center justify-center shadow-xl">

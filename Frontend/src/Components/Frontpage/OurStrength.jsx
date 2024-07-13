@@ -57,7 +57,7 @@ export default function OurStrength() {
                     alt="Icon"
                     className="h-20 filter-white  "
                   />
-                  <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer hover:text-[#df8585]  transform duration-300 ease-in-out ">
+                  <p className="text-center text-sm sm:text-base md:text-lg font-bold cursor-pointer   transform duration-300 ease-in-out ">
                     {icon.title}
                   </p>
                 </div>

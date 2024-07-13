@@ -30,7 +30,7 @@ const Card = ({ image, title, details,  id }) => {
         <h2 className="text-2xl font-semibold mb-2">{title}</h2>
         <p className="text-gray-700 mb-4">{details}</p>
         <button
-          className="text-white bg-[#333333]  w-[60%] hover:bg-[#f2f2f2]  hover:text-black  border shadow-xl transform ease-in-out duration-300 flex font-semibold py-2  rounded justify-center items-center gap-2"
+          className="text-white bg-[#333333]  w-[60%]   border shadow-xl transform ease-in-out duration-300 flex font-semibold py-2  rounded justify-center items-center gap-2"
           onMouseEnter={() => setHoverButton("view-" + id)}
           onMouseLeave={() => setHoverButton(null)}
         >

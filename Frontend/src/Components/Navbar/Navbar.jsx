@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../Pitchers/logo.jpg";
 import logobg from "../../Pitchers/logoBg.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,9 +10,16 @@ export default function Nvabar() {
   const togegleMemu = () => {
     setIsMenuOpen(!isMemuOpen);
   };
+  const navigate = useNavigate();
+  const clickHandle = () => {
+    navigate("/");
+  };
   return (
     <div className="flex relative justify-between items-center  h-[18vh] px-3 md:-x-4 lg:px-8">
-      <div className="logoSection flex flex-col  items-start ">
+      <div
+        className="logoSection flex flex-col  items-start "
+        onClick={clickHandle}
+      >
         <img src={logobg} alt="Logo" className="w-[70%] lgh-10 h-18" />
         <h2 className="font-sm text-lg  md:text-2xl  text-gray-500 ">
           Bharat Mechanical Solutions
@@ -32,20 +39,20 @@ export default function Nvabar() {
           isMemuOpen ? "hidden" : "hidden lg:flex"
         }  gap-6 font-semibold text-xl `}
       >
-        <Link className="hover:text-[#df6553] font-oswald" to="/">
+        <Link className="hover:text-zinc-600 transform duration-300 ease-in-out font-oswald" to="/">
           Home
         </Link>
-        <Link className="hover:text-[#df6553] font-oswald" to="/about">
+        <Link className="hover:text-zinc-600 transform duration-300 ease-in-out font-oswald" to="/about">
           About
         </Link>
-        <Link className="hover:text-[#df6553] font-oswald" to="/products">
+        <Link className="hover:text-zinc-600 transform duration-300 ease-in-out font-oswald" to="/products">
           Products
         </Link>
-        <Link className="hover:text-[#df6553] font-oswald" to="/resources">
+        <Link className="hover:text-zinc-600 transform duration-300 ease-in-out font-oswald" to="/resources">
           Resources
         </Link>
 
-        <Link className="hover:text-[#df6553] font-oswald" to="/contact">
+        <Link className="hover:text-zinc-600 transform duration-300 ease-in-out font-oswald" to="/contact">
           Contact
         </Link>
       </div>

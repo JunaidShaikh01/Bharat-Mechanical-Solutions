@@ -8,7 +8,7 @@ export default function AboutUs() {
     navigate("/about");
   };
   return (
-    <div className="px-8 lg:h-[80vh] flex justify-between lg:flex-row mt-8 md:mt-0 flex-col mb-8 bg-zinc-100">
+    <div className="px-8 lg:h-[85vh] flex justify-between lg:flex-row mt-8 md:mt-0 flex-col mb-8 bg-zinc-100">
       <div className="textSection  lg:w-[40%] mt-4 mb-4 lg:mb-0">
         <div>
           <h1 className="text-2xl">ABOUT US</h1>
@@ -30,7 +30,7 @@ export default function AboutUs() {
             and performance.
           </p>
           <button
-            className="bg-slate-900 text-white px-4 py-2 rounded-md w-[50%] sm:w-[30%]"
+            className="bg-slate-900 text-white px-4 py-2 rounded-md w-[50%] sm:w-[30%] transform duration-300 ease-in-out hover:bg-slate-200 hover:text-slate-900"
             onClick={handleClick}
           >
             View More

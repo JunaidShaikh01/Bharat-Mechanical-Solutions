@@ -46,7 +46,7 @@ export default function OurCustomer() {
           OUR CUSTOMERS
         </h1>
 
-        <p className="text-center text-xl text-[#F0F0F0] drop-shadow-xl">
+        <p className="text-center text-xl text-slate-900 font-semibold drop-shadow-xl">
           Our customers are at the heart of our business, driving our commitment
           to excellence in providing top-tier CNC machine tools. We prioritize
           delivering precision, reliability, and tailored solutions to meet
