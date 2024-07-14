@@ -96,7 +96,7 @@ export default function Resources() {
       </div>
       <div className="flex flex-col items-center justify-center gap-4 my-4 bg-blue-50">
         <p className="text-2xl text-zinc-950 my-5 text-center px-4">
-          CERTIFICATION OF AUTHENTICATION
+          CERTIFICATION OF DISTRIBUTION
         </p>
         <img
           src={certicate}

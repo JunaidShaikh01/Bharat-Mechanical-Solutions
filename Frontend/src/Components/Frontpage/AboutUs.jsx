@@ -19,7 +19,7 @@ export default function AboutUs() {
             Welcome to Bharat Mechanical Solutions
           </h1>
           <p className="text-lg">
-            Bharat Mechanical Solutions FZE is a leading distributor of KYOCERA
+            Bharat Mechanical Solutions FZE is a authorized distributor of KYOCERA
             cutting tools in the Middle East, offering top-quality industrial
             tools and solutions to various industries. Committed to excellence
             and innovation, we continually expand our product range to meet our

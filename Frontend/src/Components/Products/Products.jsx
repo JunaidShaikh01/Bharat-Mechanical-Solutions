@@ -19,63 +19,63 @@ export default function Products() {
       id: 1,
       image: product1,
       title: "Milling",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 2,
       image: product2,
       title: "Turning",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 3,
       image: product3,
       title: "Drilling",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 4,
       image: product4,
       title: "Grooving ",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 5,
       image: product5,
       title: "Threading",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 6,
       image: product6,
       title: "Small Tools",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 7,
       image: product7,
       title: "API Ring Groover",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 8,
       image: product8,
       title: "Custom Tools",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
     {
       id: 9,
       image: product9,
       title: "Solid Carbide Round Tools",
-      details: "Some details about the first card.",
+
       link: "Click here",
     },
   ];
@@ -104,7 +104,6 @@ export default function Products() {
               key={index}
               image={card.image}
               title={card.title}
-              details={card.details}
               link={card.link}
             />
           ))}

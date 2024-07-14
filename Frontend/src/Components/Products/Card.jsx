@@ -6,7 +6,7 @@ import { useRecoilState } from "recoil";
 import { selectedIdState, selectedNameState } from "../Recoil/recoilState";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-const Card = ({ image, title, details,  id }) => {
+const Card = ({ image, title, id }) => {
   const [hoverButton, setHoverButton] = useState(null);
   const navigate = useNavigate();
 
@@ -28,7 +28,6 @@ const Card = ({ image, title, details,  id }) => {
       <img src={image} alt={title} className="w-full h-48 " />
       <div className="p-4">
         <h2 className="text-2xl font-semibold mb-2">{title}</h2>
-        <p className="text-gray-700 mb-4">{details}</p>
         <button
           className="text-white bg-[#333333]  w-[60%]   border shadow-xl transform ease-in-out duration-300 flex font-semibold py-2  rounded justify-center items-center gap-2"
           onMouseEnter={() => setHoverButton("view-" + id)}
